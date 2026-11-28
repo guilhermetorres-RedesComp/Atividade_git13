@@ -1,0 +1,24 @@
+# 1. Dependências e ambientes virtuais
+venv/
+.venv/
+env/
+*.egg-info/
+
+# 2. Arquivos compilados e cache de execução
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+
+# 3. Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# 4. Arquivos do sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
